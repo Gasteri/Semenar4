@@ -40,3 +40,15 @@ void PrintArr(int[] array)
     }
     Console.WriteLine();
 }
+
+void test(int[] userArray, int num)
+{
+    if (userArray.Length == num)
+    {
+        Console.WriteLine("ok");
+    }
+    else
+    {
+        Console.WriteLine("!ok");
+    }
+}
